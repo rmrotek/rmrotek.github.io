@@ -165,7 +165,11 @@ main {
     border-radius: 50%;
     border: #4848ff 3px solid; }
   .about-info .bio {
+    background: #515151;
     grid-area: bio; }
+    .about-info .bio h3 {
+      font-size: 1.5rem;
+      text-shadow: 2px 2px black; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -176,6 +180,13 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #4848ff 5px solid; }
+    .about-info .job h3 {
+      font-size: 1.5rem;
+      text-decoration: underline;
+      font-weight: bolder; }
+    .about-info .job h6 {
+      font-size: 1rem;
+      margin: 0; }
 
 .projects {
   display: grid;
