@@ -79,6 +79,11 @@ main{
     }
 }
 
+#about{
+    .lg-heading{
+        text-shadow: 2px 2px black;
+    }
+}
 .about-info{
     display: grid;
     grid-gap: 30px;
@@ -100,6 +105,7 @@ main{
     .bio {
         background: lighten($primary-color, 5);
         grid-area: bio;
+        box-shadow: 2px 2px black;
 
         h3 {
             font-size: 1.5rem;
@@ -123,6 +129,8 @@ main{
         background: lighten($primary-color, 5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
+        box-shadow: 2px 2px black;
+
 
         h3 {
             font-size: 1.5rem;
