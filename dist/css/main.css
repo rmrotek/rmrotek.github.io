@@ -124,7 +124,8 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(73, 73, 73, 0.5);
+    font-size: 2rem; }
 
 a {
   color: #fff;
@@ -142,7 +143,8 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    font-size: 2em; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {

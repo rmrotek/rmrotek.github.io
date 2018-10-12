@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmrotek/portfolio.git"
+    "url": "git+https://rmrotek.github.io/.git"
   },
   "author": "Remigiusz Mrotek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rmrotek/portfolio/issues"
+    "url": "https://rmrotek.github.io/issues"
   },
-  "homepage": "https://github.com/rmrotek/portfolio",
+  "homepage": "https://rmrotek.github.io/",
   "dependencies": {
     "node-sass": "^4.9.3"
   }
