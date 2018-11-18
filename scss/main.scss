@@ -99,10 +99,12 @@ main{
     .bio-image {
         
         grid-area: bioimage;
+        background-image: url(../img/portrait.jpg);
+        background-size: cover;
         margin: auto;
         width: 250px;
         height: 300px;
-        border-radius: 50%;
+        border-radius: 50%; 
         border: $secondary-color  3px solid;
     }
     
@@ -231,6 +233,7 @@ main{
     background: darken($primary-color, 10);
     color: set-text-color($primary-color);
     height: 60px;
+    width: 100vw;
 }
 
 

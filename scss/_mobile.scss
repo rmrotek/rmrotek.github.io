@@ -33,6 +33,7 @@
         float: none;
         width: 100%;
         min-height: 0;
+        opacity: 1;
 
         &.show {
             transform: translate3d(0, 0, 0);
@@ -43,17 +44,12 @@
         height: 75vh;
         transform: translate3d(-100%, 0, 0);
         font-size: 24px;
+         
     }
 
     .menu-branding {
-        height: 25vh;
+        height: 0;
         transform: translate3d(100%, 0, 0);
-
-        .portrait {
-            background: url('../img/portrait_small.jpg');
-            width: 150px;
-            height: 150px;
-        }
     }
 
     .about-info {
