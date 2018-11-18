@@ -100,7 +100,7 @@ main{
         
         grid-area: bioimage;
         background-image: url(../img/portrait.jpg);
-        background-size: cover;
+        background-size: cover; 
         margin: auto;
         width: 250px;
         height: 300px;
@@ -234,7 +234,7 @@ main{
     color: set-text-color($primary-color);
     height: 60px;
     width: 100vw;
-}
+} 
 
 
 
